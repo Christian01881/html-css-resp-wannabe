@@ -131,3 +131,48 @@ img {
 @media screen and (max-width: 1160px) and (min-width: 768px) {
     .container{width: 750px;}
 }
+
+@media screen and (max-width: 767px){
+    .container {
+        width: 100%;
+    }
+  
+   .row {
+       flex-flow: column wrap;
+    }
+
+   .steps .col {
+       width: 100%;
+    }
+
+   .lessons .col {
+       width: 100%;
+    }
+
+   .why-us .col {
+       width: 100%;
+    }
+
+   .card {
+       margin-bottom: 4rem;
+    }
+
+   .why-us .col-left {
+        margin-bottom: 4rem;
+    }
+
+    .why-us{
+        margin: 0;
+        background-color: #222222;
+    }
+
+    .steps{
+        margin: 0;
+    }
+
+    .why-us .container{
+        padding-top: 3rem;
+    }
+
+}
+
